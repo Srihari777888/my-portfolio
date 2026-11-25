@@ -1,0 +1,115 @@
+/* Body styling */
+body {
+
+  background-image: url("background.jpg");
+  /* path to your image */
+  background-size: cover;
+  /* fill the whole screen, no distortion */
+  background-position: center;
+  /* keep the interesting part centered */
+  background-repeat: no-repeat;
+  /* stop the tiling */
+  background-attachment: fixed;
+  /* image stays put when you scroll (nice effect) */
+
+
+}
+
+/* Heading styling */
+h1 {
+  color: rgb(55, 12, 209);
+  font-size: 40px;
+  font-style: italic;
+}
+
+/* Paragraph styling */
+p {
+  color: rgb(237, 235, 233);
+  font-size: 20px;
+  font-style: normal;
+}
+
+h3 {
+  color: darkred;
+  font-size: 20px;
+  font-style: normal;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: normal;
+}
+
+h5 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-style: normal;
+}
+
+img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 30px;
+  display: block;
+  margin-inline: auto;
+}
+
+/* Link buttons — Contact Me section */
+a {
+  display: inline-block;
+  /* lets padding & margins work properly */
+  background-color: rgb(12, 6, 140);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  /* remove the underline */
+  font-weight: bold;
+  margin: 8px 6px;
+  /* spacing between buttons */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+a:hover {
+  background-color: rgb(4, 6, 123);
+  /* darker green on hover */
+  transform: translateY(-3px);
+  /* lifts the button slightly */
+}
+
+/* Hide/show helper class */
+.hidden {
+  display: none;
+}
+
+/* Skills chips styling */
+#skills-list li {
+  display: inline-block;
+  background-color: rgba(12, 6, 140, 0.85);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin: 6px 4px;
+  font-weight: bold;
+}
+
+/* Hobbies chips styling — different color */
+#hobbies-list li {
+  display: inline-block;
+  background-color: rgba(16, 4, 150, 0.9);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  margin: 6px 4px;
+  font-weight: bold;
+}
+
+/* Button styling */
+button {
+  background-color: rgb(5, 10, 146);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+}
